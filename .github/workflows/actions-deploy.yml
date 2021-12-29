@@ -23,6 +23,7 @@ jobs:
     - run: pwd
     - run: which ls
     - run: npm run build --if-present
+    - run: ls -la
     - run: cp ./dist/angular-deploy-github-self-host /usr/share/nginx/html 
    # - run: sudo cp ./_work/angular-deploy-github-self-host/dist/angular-deploy-github-self-host ~/usr/share/nginx/html
     - run: sudo systemctl stop nginx && sudo systemctl start nginx
