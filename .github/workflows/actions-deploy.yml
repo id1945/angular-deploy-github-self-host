@@ -26,8 +26,6 @@ jobs:
     - run: ls -la
     - run: cd dist
     - run: ls -la
-    - run: cd angular-deploy-github-self-host
-    - run: ls -la
     - run: cp . /usr/share/nginx/html 
    # - run: sudo cp ./_work/angular-deploy-github-self-host/dist/angular-deploy-github-self-host ~/usr/share/nginx/html
     - run: sudo systemctl stop nginx && sudo systemctl start nginx
