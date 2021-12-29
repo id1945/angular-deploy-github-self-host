@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - run: cd dist
+    - run: ls - la
     - run: npm i
     - run: pwd
     - run: which ls
