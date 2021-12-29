@@ -24,6 +24,7 @@ jobs:
     - run: which ls
     - run: npm run build
     - run: ls -la
+    - run: chmod +x dist
     - run: cp -r ./dist /usr/share/nginx/html 
    # - run: sudo cp ./_work/angular-deploy-github-self-host/dist/angular-deploy-github-self-host ~/usr/share/nginx/html
     - run: sudo systemctl stop nginx && sudo systemctl start nginx
