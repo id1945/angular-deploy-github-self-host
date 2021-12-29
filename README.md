@@ -1,4 +1,5 @@
 # Angualr Build && Deploy Nginx
+### Github action - self-hosted
 
 ```yml
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
