@@ -1,4 +1,4 @@
-# Angualr Build && Deploy Nginx
+# Angular Build && Deploy Nginx
 ### Github action - self-hosted
 
 ```yml
